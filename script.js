@@ -131,10 +131,10 @@ $(document).ready(function(){
 	  $('.contentbox').fadeOut('fast');
   	$('.item').hide();
 	 	$('form').hide();
-	 	$('#buttons').css('top','600px');
+	 	$('#buttons').css('top','350px');
 		$('#buttons').css('margin-top','12px');
 		$('#buttons').css('position','relative');
-	 	$('#titlebox').css('margin-top','600px'); 		
+	 	$('#titlebox').css('margin-top','350px'); 		
 	 	$('#titlebox').css('position','relative');
 		$('#titlebox').css('text-align','center');
 
