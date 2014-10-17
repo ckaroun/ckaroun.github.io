@@ -101,12 +101,12 @@ $(document).ready(function(){
 	// Now bring up content
 		  //Send title and buttons to top of screen	
 	 $('#buttons').click(function() {
-			$('#titlebox').css('margin-top','0px'); 	
+			$('#titlebox').css('margin-top','-5px'); 	
 			$('#titlebox').css('position','absolute');
-			$('#titlebox').css('top','0px');
-			$('#buttons').css('margin-top','50px');
+			$('#titlebox').css('top','-5px');
+			$('#buttons').css('margin-top','45px');
 			$('#buttons').css('position','absolute');
-			$('#buttons').css('top','50px');
+			$('#buttons').css('top','45px');
 			/*$('#buttons').css('background-color',' #3d63b8 ')*/
 		});
 	 	 //menu
@@ -131,11 +131,12 @@ $(document).ready(function(){
 	  $('.contentbox').fadeOut('fast');
   	$('.item').hide();
 	 	$('form').hide();
-	 	$('#buttons').css('top','565px');
+	 	$('#buttons').css('top','600px');
 		$('#buttons').css('margin-top','12px');
 		$('#buttons').css('position','relative');
-	 	$('#titlebox').css('margin-top','80%'); 		
-	 	$('#titlbox').css('position','relative');
+	 	$('#titlebox').css('margin-top','600px'); 		
+	 	$('#titlebox').css('position','relative');
+		$('#titlebox').css('text-align','center');
 
   });
 			//event info
